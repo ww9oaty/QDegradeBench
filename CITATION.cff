@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it using the metadata below."
+title: "QDegradeBench: Matched Information-Degradation Chains and Human-Labeled LLM Responses"
+type: dataset
+version: 1.0.0
+date-released: 2026-10-01
+authors:
+  - family-names: Wang
+    given-names: Wenyue
+  - family-names: Lin
+    given-names: Zhijie
+  - family-names: Li
+    given-names: Yindan
+  - family-names: Weng
+    given-names: Chufei
+  - family-names: Ju
+    given-names: Jiehui
+  - family-names: Zhao
+    given-names: Lei
+keywords:
+  - large language models
+  - information sufficiency
+  - prompt degradation
+  - clarification
+  - abstention
+  - reliability evaluation
+license: CC-BY-4.0

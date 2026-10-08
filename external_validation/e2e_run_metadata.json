@@ -1,0 +1,69 @@
+{
+  "experiment": "QDegradeBench E2E external validation",
+  "started_at_utc": "2026-10-08T03:57:41.987654+00:00",
+  "finished_at_utc": "2026-10-08T04:00:27.834495+00:00",
+  "prompt_input": "e2e_qdegrade_24x4.csv",
+  "prompt_count": 96,
+  "expected_response_count": 192,
+  "system_prompt": "You are a helpful AI assistant. Please answer the user question.",
+  "temperature": 0,
+  "max_tokens": 512,
+  "providers_run": [
+    {
+      "name": "DeepSeek-Official",
+      "model": "deepseek-v4-pro",
+      "planned_model": "deepseek-v4-pro",
+      "substitution_note": "",
+      "endpoint": "https://api.deepseek.com/chat/completions",
+      "api_key_env": "DEEPSEEK_API_KEY"
+    }
+  ],
+  "cli_args": {
+    "limit": 0,
+    "providers": [
+      "DeepSeek-Official"
+    ]
+  },
+  "integrity": {
+    "expected_total": 192,
+    "actual_total_records": 192,
+    "ok": 192,
+    "error": 0,
+    "ok_but_empty_response": 0,
+    "per_model": {
+      "deepseek-v4-pro": {
+        "total": 96,
+        "ok": 96,
+        "error": 0
+      },
+      "qwen3.7-plus": {
+        "total": 96,
+        "ok": 96,
+        "error": 0
+      }
+    },
+    "models": [
+      "deepseek-v4-pro",
+      "qwen3.7-plus"
+    ],
+    "ok_per_level_per_model": {
+      "L0": {
+        "deepseek-v4-pro": 24,
+        "qwen3.7-plus": 24
+      },
+      "L1": {
+        "deepseek-v4-pro": 24,
+        "qwen3.7-plus": 24
+      },
+      "L2": {
+        "deepseek-v4-pro": 24,
+        "qwen3.7-plus": 24
+      },
+      "L3": {
+        "deepseek-v4-pro": 24,
+        "qwen3.7-plus": 24
+      }
+    }
+  },
+  "failed_count": 0
+}

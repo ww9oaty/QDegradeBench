@@ -1,0 +1,151 @@
+{
+  "source": "e2e_annotation_sheet_human_reviewed.csv",
+  "overall": {
+    "analysis_status": "complete",
+    "CFO_eligible": 48,
+    "rows": 192,
+    "labeled": 192,
+    "unlabeled": 0,
+    "by_level": {
+      "L0": {
+        "n_labeled": 48,
+        "labels": {
+          "CA": 48
+        },
+        "ARR": 1.0,
+        "UAR": null
+      },
+      "L1": {
+        "n_labeled": 48,
+        "labels": {
+          "CA": 48
+        },
+        "ARR": 1.0,
+        "UAR": null
+      },
+      "L2": {
+        "n_labeled": 48,
+        "labels": {
+          "PA": 34,
+          "UA": 6,
+          "CA": 8
+        },
+        "ARR": 0.875,
+        "UAR": null
+      },
+      "L3": {
+        "n_labeled": 48,
+        "labels": {
+          "CQ": 48
+        },
+        "ARR": 1.0,
+        "UAR": 0.0
+      }
+    },
+    "IDU": 0.041666666666666664,
+    "CFO": {
+      "no_observed_failure": 42,
+      "L2": 6
+    },
+    "trajectories": 48
+  },
+  "by_provider": {
+    "DeepSeek-Official": {
+      "analysis_status": "complete",
+      "CFO_eligible": 24,
+      "rows": 96,
+      "labeled": 96,
+      "unlabeled": 0,
+      "by_level": {
+        "L0": {
+          "n_labeled": 24,
+          "labels": {
+            "CA": 24
+          },
+          "ARR": 1.0,
+          "UAR": null
+        },
+        "L1": {
+          "n_labeled": 24,
+          "labels": {
+            "CA": 24
+          },
+          "ARR": 1.0,
+          "UAR": null
+        },
+        "L2": {
+          "n_labeled": 24,
+          "labels": {
+            "PA": 23,
+            "UA": 1
+          },
+          "ARR": 0.9583333333333334,
+          "UAR": null
+        },
+        "L3": {
+          "n_labeled": 24,
+          "labels": {
+            "CQ": 24
+          },
+          "ARR": 1.0,
+          "UAR": 0.0
+        }
+      },
+      "IDU": 0.013888888888888876,
+      "CFO": {
+        "no_observed_failure": 23,
+        "L2": 1
+      },
+      "trajectories": 24
+    },
+    "Qwen-DashScope": {
+      "analysis_status": "complete",
+      "CFO_eligible": 24,
+      "rows": 96,
+      "labeled": 96,
+      "unlabeled": 0,
+      "by_level": {
+        "L0": {
+          "n_labeled": 24,
+          "labels": {
+            "CA": 24
+          },
+          "ARR": 1.0,
+          "UAR": null
+        },
+        "L1": {
+          "n_labeled": 24,
+          "labels": {
+            "CA": 24
+          },
+          "ARR": 1.0,
+          "UAR": null
+        },
+        "L2": {
+          "n_labeled": 24,
+          "labels": {
+            "PA": 11,
+            "CA": 8,
+            "UA": 5
+          },
+          "ARR": 0.7916666666666666,
+          "UAR": null
+        },
+        "L3": {
+          "n_labeled": 24,
+          "labels": {
+            "CQ": 24
+          },
+          "ARR": 1.0,
+          "UAR": 0.0
+        }
+      },
+      "IDU": 0.06944444444444446,
+      "CFO": {
+        "no_observed_failure": 19,
+        "L2": 5
+      },
+      "trajectories": 24
+    }
+  }
+}

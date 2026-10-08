@@ -1,0 +1,129 @@
+record_id,sample_id,task_type,level,provider,primary_human_label,second_human_label,initial_agreement,final_label
+NR01_L0|DeepSeek,NR01_L0,Numerical Reasoning（数值推理）,L0,DeepSeek,CA,CA,1,CA
+NR01_L0|Qwen,NR01_L0,Numerical Reasoning（数值推理）,L0,Qwen,CA,CA,Agree,CA
+NR01_L0|OpenAI,NR01_L0,Numerical Reasoning（数值推理）,L0,OpenAI,CA,CA,Agree,CA
+NR01_L3|OpenAI,NR01_L3,Numerical Reasoning（数值推理）,L3,OpenAI,UA,CQ,Disagree,CQ
+NR01_L3|Gemini,NR01_L3,Numerical Reasoning（数值推理）,L3,Gemini,UA,CQ,Disagree,CQ
+NR02_L2|OpenAI,NR02_L2,Numerical Reasoning（数值推理）,L2,OpenAI,PA,PA,Agree,PA
+NR02_L2|Gemini,NR02_L2,Numerical Reasoning（数值推理）,L2,Gemini,PA,PA,Agree,PA
+NR02_L3|Qwen,NR02_L3,Numerical Reasoning（数值推理）,L3,Qwen,CQ,CQ,Agree,CQ
+NR03_L0|DeepSeek,NR03_L0,Numerical Reasoning（数值推理）,L0,DeepSeek,CA,CA,Agree,CA
+NR03_L0|Qwen,NR03_L0,Numerical Reasoning（数值推理）,L0,Qwen,CA,CA,Agree,CA
+NR03_L0|Gemini,NR03_L0,Numerical Reasoning（数值推理）,L0,Gemini,CA,CA,Agree,CA
+NR03_L1|DeepSeek,NR03_L1,Numerical Reasoning（数值推理）,L1,DeepSeek,CA,CA,Agree,CA
+NR03_L1|Qwen,NR03_L1,Numerical Reasoning（数值推理）,L1,Qwen,CA,CA,Agree,CA
+NR03_L3|Qwen,NR03_L3,Numerical Reasoning（数值推理）,L3,Qwen,CQ,CQ,Agree,CQ
+NR03_L3|Gemini,NR03_L3,Numerical Reasoning（数值推理）,L3,Gemini,CQ,CQ,Agree,CQ
+NR04_L1|Gemini,NR04_L1,Numerical Reasoning（数值推理）,L1,Gemini,CA,CA,Agree,CA
+NR04_L2|DeepSeek,NR04_L2,Numerical Reasoning（数值推理）,L2,DeepSeek,UA,UA,Agree,UA
+CD01_L1|DeepSeek,CD01_L1,Code Diagnosis（代码诊断）,L1,DeepSeek,CA,CA,Agree,CA
+CD01_L1|OpenAI,CD01_L1,Code Diagnosis（代码诊断）,L1,OpenAI,CA,CA,Agree,CA
+CD01_L2|OpenAI,CD01_L2,Code Diagnosis（代码诊断）,L2,OpenAI,CA,CA,Agree,CA
+CD01_L2|Gemini,CD01_L2,Code Diagnosis（代码诊断）,L2,Gemini,CA,CA,Agree,CA
+CD02_L0|Qwen,CD02_L0,Code Diagnosis（代码诊断）,L0,Qwen,CA,CA,Agree,CA
+CD02_L3|Gemini,CD02_L3,Code Diagnosis（代码诊断）,L3,Gemini,CA,UA,Disagree,UA
+CD03_L2|Gemini,CD03_L2,Code Diagnosis（代码诊断）,L2,Gemini,CA,CA,Agree,CA
+CD04_L1|Qwen,CD04_L1,Code Diagnosis（代码诊断）,L1,Qwen,CA,CA,Agree,CA
+CD04_L2|DeepSeek,CD04_L2,Code Diagnosis（代码诊断）,L2,DeepSeek,CA,CA,Agree,CA
+CD04_L2|OpenAI,CD04_L2,Code Diagnosis（代码诊断）,L2,OpenAI,CA,CA,Agree,CA
+CD04_L3|DeepSeek,CD04_L3,Code Diagnosis（代码诊断）,L3,DeepSeek,CQ,CQ,Agree,CQ
+CG01_L3|DeepSeek,CG01_L3,Constrained Generation（约束生成）,L3,DeepSeek,UA,UA,Agree,UA
+CG01_L3|Qwen,CG01_L3,Constrained Generation（约束生成）,L3,Qwen,UA,UA,Agree,UA
+CG01_L3|OpenAI,CG01_L3,Constrained Generation（约束生成）,L3,OpenAI,PA,CQ,Disagree,CQ
+CG02_L1|OpenAI,CG02_L1,Constrained Generation（约束生成）,L1,OpenAI,CA,CA,Agree,CA
+CG02_L1|Gemini,CG02_L1,Constrained Generation（约束生成）,L1,Gemini,CA,CA,Agree,CA
+CG02_L3|DeepSeek,CG02_L3,Constrained Generation（约束生成）,L3,DeepSeek,CQ,CQ,Agree,CQ
+CG02_L3|Gemini,CG02_L3,Constrained Generation（约束生成）,L3,Gemini,CQ,CQ,Agree,CQ
+CG03_L0|DeepSeek,CG03_L0,Constrained Generation（约束生成）,L0,DeepSeek,CA,CA,Agree,CA
+CG03_L1|Gemini,CG03_L1,Constrained Generation（约束生成）,L1,Gemini,CA,CA,Agree,CA
+CG03_L2|DeepSeek,CG03_L2,Constrained Generation（约束生成）,L2,DeepSeek,UA,UA,Agree,UA
+CG03_L2|OpenAI,CG03_L2,Constrained Generation（约束生成）,L2,OpenAI,UA,UA,Agree,UA
+CG03_L3|Gemini,CG03_L3,Constrained Generation（约束生成）,L3,Gemini,UA,UA,Agree,UA
+CG04_L2|Gemini,CG04_L2,Constrained Generation（约束生成）,L2,Gemini,PA,UA,Disagree,UA
+DP01_L0|DeepSeek,DP01_L0,Decision and Planning（决策与规划）,L0,DeepSeek,CA,CA,1,CA
+DP01_L3|DeepSeek,DP01_L3,Decision and Planning（决策与规划）,L3,DeepSeek,PA,UA,Disagree,UA
+DP01_L3|Qwen,DP01_L3,Decision and Planning（决策与规划）,L3,Qwen,PA,UA,Disagree,UA
+DP01_L3|Gemini,DP01_L3,Decision and Planning（决策与规划）,L3,Gemini,PA,UA,Disagree,UA
+DP02_L0|Gemini,DP02_L0,Decision and Planning（决策与规划）,L0,Gemini,CA,CA,Agree,CA
+DP02_L1|Qwen,DP02_L1,Decision and Planning（决策与规划）,L1,Qwen,CA,CA,Agree,CA
+DP02_L1|Gemini,DP02_L1,Decision and Planning（决策与规划）,L1,Gemini,CA,CA,Agree,CA
+DP02_L2|DeepSeek,DP02_L2,Decision and Planning（决策与规划）,L2,DeepSeek,PA,CA,Disagree,CA
+DP02_L3|DeepSeek,DP02_L3,Decision and Planning（决策与规划）,L3,DeepSeek,PA,UA,Disagree,UA
+DP04R_L0|Qwen,DP04R_L0,Decision and Planning（决策与规划）,L0,Qwen,CA,CA,Agree,CA
+DP04R_L1|DeepSeek,DP04R_L1,Decision and Planning（决策与规划）,L1,DeepSeek,CA,CA,Agree,CA
+DP04R_L1|Qwen,DP04R_L1,Decision and Planning（决策与规划）,L1,Qwen,CA,CA,Agree,CA
+DP04R_L3|OpenAI,DP04R_L3,Decision and Planning（决策与规划）,L3,OpenAI,CQ,CQ,Agree,CQ
+NR05_L1|Qwen,NR05_L1,Numerical Reasoning（数值推理）,L1,Qwen,CA,CA,Agree,CA
+NR05_L1|OpenAI,NR05_L1,Numerical Reasoning（数值推理）,L1,OpenAI,CA,CA,Agree,CA
+NR05_L1|Gemini,NR05_L1,Numerical Reasoning（数值推理）,L1,Gemini,CA,CA,Agree,CA
+NR05_L2|Qwen,NR05_L2,Numerical Reasoning（数值推理）,L2,Qwen,CQ,PA,Disagree,CQ
+NR05_L3|DeepSeek,NR05_L3,Numerical Reasoning（数值推理）,L3,DeepSeek,CQ,CQ,Agree,CQ
+NR06_L2|DeepSeek,NR06_L2,Numerical Reasoning（数值推理）,L2,DeepSeek,PA,PA,Agree,PA
+NR06_L2|Qwen,NR06_L2,Numerical Reasoning（数值推理）,L2,Qwen,CQ,PA,Disagree,CQ
+NR06_L2|Gemini,NR06_L2,Numerical Reasoning（数值推理）,L2,Gemini,PA,PA,Agree,PA
+NR07_L1|DeepSeek,NR07_L1,Numerical Reasoning（数值推理）,L1,DeepSeek,CA,CA,Agree,CA
+NR07_L2|OpenAI,NR07_L2,Numerical Reasoning（数值推理）,L2,OpenAI,CQ,PA,Disagree,CQ
+NR08_L0|OpenAI,NR08_L0,Numerical Reasoning（数值推理）,L0,OpenAI,CA,CA,Agree,CA
+NR08_L0|Gemini,NR08_L0,Numerical Reasoning（数值推理）,L0,Gemini,CA,CA,Agree,CA
+NR08_L1|OpenAI,NR08_L1,Numerical Reasoning（数值推理）,L1,OpenAI,CA,CA,Agree,CA
+NR08_L3|DeepSeek,NR08_L3,Numerical Reasoning（数值推理）,L3,DeepSeek,CQ,CQ,Agree,CQ
+NR08_L3|OpenAI,NR08_L3,Numerical Reasoning（数值推理）,L3,OpenAI,CQ,CQ,Agree,CQ
+CD05_L0|Gemini,CD05_L0,Code Diagnosis（代码诊断）,L0,Gemini,CA,CA,Agree,CA
+CD05_L1|Qwen,CD05_L1,Code Diagnosis（代码诊断）,L1,Qwen,CA,CA,Agree,CA
+CD05_L1|OpenAI,CD05_L1,Code Diagnosis（代码诊断）,L1,OpenAI,CA,CA,Agree,CA
+CD05_L1|Gemini,CD05_L1,Code Diagnosis（代码诊断）,L1,Gemini,CA,CA,Agree,CA
+CD05_L2|Qwen,CD05_L2,Code Diagnosis（代码诊断）,L2,Qwen,CA,CA,Agree,CA
+CD05_L3|Gemini,CD05_L3,Code Diagnosis（代码诊断）,L3,Gemini,AI,PA,Disagree,PA
+CD06_L0|OpenAI,CD06_L0,Code Diagnosis（代码诊断）,L0,OpenAI,CA,CA,Agree,CA
+CD06_L2|Qwen,CD06_L2,Code Diagnosis（代码诊断）,L2,Qwen,CA,CA,Agree,CA
+CD06_L3|Qwen,CD06_L3,Code Diagnosis（代码诊断）,L3,Qwen,AI,PA,Disagree,PA
+CD07_L0|DeepSeek,CD07_L0,Code Diagnosis（代码诊断）,L0,DeepSeek,CA,CA,Agree,CA
+CD07_L0|Qwen,CD07_L0,Code Diagnosis（代码诊断）,L0,Qwen,CA,CA,Agree,CA
+CD07_L0|OpenAI,CD07_L0,Code Diagnosis（代码诊断）,L0,OpenAI,CA,CA,Agree,CA
+CD07_L2|DeepSeek,CD07_L2,Code Diagnosis（代码诊断）,L2,DeepSeek,CA,CA,Agree,CA
+CD07_L3|DeepSeek,CD07_L3,Code Diagnosis（代码诊断）,L3,DeepSeek,CQ,PA,Disagree,CQ
+CD07_L3|OpenAI,CD07_L3,Code Diagnosis（代码诊断）,L3,OpenAI,AI,PA,Disagree,PA
+CD08_L0|DeepSeek,CD08_L0,Code Diagnosis（代码诊断）,L0,DeepSeek,CA,CA,Agree,CA
+CD08_L0|Gemini,CD08_L0,Code Diagnosis（代码诊断）,L0,Gemini,CA,CA,Agree,CA
+CD08_L1|DeepSeek,CD08_L1,Code Diagnosis（代码诊断）,L1,DeepSeek,CA,CA,Agree,CA
+CD08_L1|Gemini,CD08_L1,Code Diagnosis（代码诊断）,L1,Gemini,CA,CA,Agree,CA
+CD08_L3|Qwen,CD08_L3,Code Diagnosis（代码诊断）,L3,Qwen,AI,PA,Disagree,PA
+CD08_L3|OpenAI,CD08_L3,Code Diagnosis（代码诊断）,L3,OpenAI,AI,PA,Disagree,PA
+CG05_L0|DeepSeek,CG05_L0,Constrained Generation（约束生成）,L0,DeepSeek,CA,CA,1,CA
+CG05_L0|Gemini,CG05_L0,Constrained Generation（约束生成）,L0,Gemini,CA,CA,Agree,CA
+CG05_L2|DeepSeek,CG05_L2,Constrained Generation（约束生成）,L2,DeepSeek,UA,UA,Agree,UA
+CG05_L2|Gemini,CG05_L2,Constrained Generation（约束生成）,L2,Gemini,UA,UA,Agree,UA
+CG05_L3|Qwen,CG05_L3,Constrained Generation（约束生成）,L3,Qwen,UA,CA,Disagree,UA
+CG06_L0|Gemini,CG06_L0,Constrained Generation（约束生成）,L0,Gemini,CA,CA,Agree,CA
+CG06_L1|DeepSeek,CG06_L1,Constrained Generation（约束生成）,L1,DeepSeek,PA,CA,Disagree,CA
+CG06_L1|Qwen,CG06_L1,Constrained Generation（约束生成）,L1,Qwen,CA,CA,Agree,CA
+CG06_L1|OpenAI,CG06_L1,Constrained Generation（约束生成）,L1,OpenAI,CA,CA,Agree,CA
+CG06_L2|Qwen,CG06_L2,Constrained Generation（约束生成）,L2,Qwen,PA,UA,Disagree,UA
+CG06_L2|OpenAI,CG06_L2,Constrained Generation（约束生成）,L2,OpenAI,PA,UA,Disagree,UA
+CG07_L0|Qwen,CG07_L0,Constrained Generation（约束生成）,L0,Qwen,CA,CA,Agree,CA
+CG07_L0|OpenAI,CG07_L0,Constrained Generation（约束生成）,L0,OpenAI,CA,CA,Agree,CA
+CG07_L1|DeepSeek,CG07_L1,Constrained Generation（约束生成）,L1,DeepSeek,CA,CA,Agree,CA
+CG07_L3|OpenAI,CG07_L3,Constrained Generation（约束生成）,L3,OpenAI,PA,UA,Disagree,UA
+CG08_L0|Qwen,CG08_L0,Constrained Generation（约束生成）,L0,Qwen,PA,CA,Disagree,CA
+CG08_L0|OpenAI,CG08_L0,Constrained Generation（约束生成）,L0,OpenAI,CA,CA,Agree,CA
+CG08_L1|Qwen,CG08_L1,Constrained Generation（约束生成）,L1,Qwen,CA,CA,Agree,CA
+CG08_L2|Qwen,CG08_L2,Constrained Generation（约束生成）,L2,Qwen,PA,UA,Disagree,UA
+DP05_L0|Qwen,DP05_L0,Decision and Planning（决策与规划）,L0,Qwen,CA,CA,Agree,CA
+DP05_L0|OpenAI,DP05_L0,Decision and Planning（决策与规划）,L0,OpenAI,CA,CA,Agree,CA
+DP05_L2|Qwen,DP05_L2,Decision and Planning（决策与规划）,L2,Qwen,UA,CA,Disagree,UA
+DP05_L2|Gemini,DP05_L2,Decision and Planning（决策与规划）,L2,Gemini,PA,CA,Disagree,PA
+DP06_L2|DeepSeek,DP06_L2,Decision and Planning（决策与规划）,L2,DeepSeek,PA,UA,Disagree,UA
+DP06_L2|Qwen,DP06_L2,Decision and Planning（决策与规划）,L2,Qwen,PA,UA,Disagree,UA
+DP06_L2|OpenAI,DP06_L2,Decision and Planning（决策与规划）,L2,OpenAI,PA,PA,Agree,PA
+DP06_L2|Gemini,DP06_L2,Decision and Planning（决策与规划）,L2,Gemini,UA,PA,Disagree,PA
+DP06_L3|Gemini,DP06_L3,Decision and Planning（决策与规划）,L3,Gemini,CQ,CQ,Agree,CQ
+DP07_L0|Gemini,DP07_L0,Decision and Planning（决策与规划）,L0,Gemini,CA,CA,Agree,CA
+DP07_L1|DeepSeek,DP07_L1,Decision and Planning（决策与规划）,L1,DeepSeek,CA,CA,Agree,CA
+DP07_L1|OpenAI,DP07_L1,Decision and Planning（决策与规划）,L1,OpenAI,CA,CA,Agree,CA
+DP07_L2|OpenAI,DP07_L2,Decision and Planning（决策与规划）,L2,OpenAI,PA,CA,Disagree,CA
+DP07_L3|Qwen,DP07_L3,Decision and Planning（决策与规划）,L3,Qwen,PA,UA,Disagree,UA
+DP07_L3|OpenAI,DP07_L3,Decision and Planning（决策与规划）,L3,OpenAI,PA,UA,Disagree,UA
+DP08_L0|DeepSeek,DP08_L0,Decision and Planning（决策与规划）,L0,DeepSeek,CA,CA,Agree,CA
+DP08_L0|OpenAI,DP08_L0,Decision and Planning（决策与规划）,L0,OpenAI,CA,CA,Agree,CA
+DP08_L1|OpenAI,DP08_L1,Decision and Planning（决策与规划）,L1,OpenAI,CA,CA,Agree,CA
+DP08_L1|Gemini,DP08_L1,Decision and Planning（决策与规划）,L1,Gemini,CA,CA,Agree,CA

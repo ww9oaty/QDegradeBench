@@ -1,0 +1,31 @@
+{
+  "artifact_version": "1.0",
+  "collection_period": "2026-07-24 to 2026-08-15",
+  "language": "Chinese",
+  "base_tasks": 32,
+  "prompts": 128,
+  "responses": 512,
+  "generations_per_endpoint_prompt_pair": 1,
+  "requested_temperature": 0,
+  "system_prompt_zh": "你是一个乐于助人的人工智能助手。请回答用户的问题。",
+  "endpoints": {
+    "DeepSeek": "deepseek-v4-pro",
+    "Qwen": "qwen3.7-plus-2026-05-26",
+    "OpenAI": "gpt-5.6-terra",
+    "Gemini": "gemini-3.7-flash"
+  },
+  "access": {
+    "DeepSeek": "official API",
+    "Qwen": "Alibaba Cloud Model Studio",
+    "OpenAI": "AIHubMix",
+    "Gemini": "AIHubMix"
+  },
+  "generation_notes": "Each request contained one user prompt and no previous conversation. Degradation levels were sent independently. Requested maximum output length varied by call and is recorded per response.",
+  "exclusions": [
+    "API credentials",
+    "private service configuration",
+    "reviewer identities",
+    "internal notes",
+    "AI-generated preliminary labels"
+  ]
+}
