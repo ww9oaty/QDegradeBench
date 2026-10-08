@@ -2,6 +2,8 @@
 
 QDegradeBench evaluates model behavior as task-critical information is progressively removed from otherwise matched prompts.
 
+Public repository: https://github.com/ww9oaty/QDegradeBench
+
 ## Contents
 
 - `prompts.csv`: 128 Chinese prompts from 32 base tasks and four degradation levels.
@@ -48,7 +50,7 @@ Each prompt was sent once to each of four API endpoints. The unit of a degradati
 
 This artifact is released under CC BY 4.0. See `LICENSE.txt`.
 
-## Public release checklist
+## Archived versions
 
-Before uploading this package, the authors should add the permanent repository URL or DOI to the manuscript and archive the exact submitted version.
+The `v1.0.0` Git tag identifies the first public artifact version. A Zenodo DOI may be added later as a persistent archive of a tagged release.
 
