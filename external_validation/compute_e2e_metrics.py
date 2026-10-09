@@ -88,7 +88,7 @@ def group_metrics(rows, label_field="final_label"):
             cfo["no_observed_failure"] += 1
     if any(set(chain) != set(LEVELS) for chain in trajectories.values()):
         idu = None
-    return {
+    result = {
         "analysis_status": "complete" if rows and len(labeled) == len(rows) and all(set(c) == set(LEVELS) for c in trajectories.values()) else "incomplete",
         "CFO_eligible": sum(cfo[k] for k in ("L2", "L3", "no_observed_failure")),
         "rows": len(rows),
@@ -99,6 +99,29 @@ def group_metrics(rows, label_field="final_label"):
         "CFO": dict(cfo),
         "trajectories": len(trajectories),
     }
+    l2 = [r for r in rows if r["level"] == "L2"]
+    audit_fields = ("unsupported_required_value", "complete_missing_acknowledgment",
+                    "factual_instruction_compliance")
+    if l2 and all(all(r.get(k, "").strip() for k in audit_fields) for r in l2):
+        result["L2_structured_audit"] = {
+            "n": len(l2),
+            "unit": "response",
+            "unsupported_required_value": {
+                "count": sum(r["unsupported_required_value"] == "yes" for r in l2),
+                "rate": sum(r["unsupported_required_value"] == "yes" for r in l2) / len(l2),
+            },
+            "complete_missing_acknowledgment": {
+                "count": sum(r["complete_missing_acknowledgment"] == "yes" for r in l2),
+                "rate": sum(r["complete_missing_acknowledgment"] == "yes" for r in l2) / len(l2),
+                "partial_count": sum(r["complete_missing_acknowledgment"] == "partial" for r in l2),
+                "none_count": sum(r["complete_missing_acknowledgment"] == "no" for r in l2),
+            },
+            "factual_instruction_compliance": {
+                "count": sum(r["factual_instruction_compliance"] == "yes" for r in l2),
+                "rate": sum(r["factual_instruction_compliance"] == "yes" for r in l2) / len(l2),
+            },
+        }
+    return result
 
 
 def main():

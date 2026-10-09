@@ -13,7 +13,7 @@ Public repository: https://github.com/ww9oaty/QDegradeBench
 - `LABELS.md`: response labels and answerability categories.
 - `DATA_DICTIONARY.md`: field definitions.
 - `analysis/reproduce_metrics.py`: reproduces the main counts, ARR, UAR, IDU, CFO distribution, agreement, and Cohen's kappa.
-- `external_validation/`: completed public English transfer study with 96 prompts, 192 endpoint responses, final human-confirmed labels, run metadata, and metric code.
+- `external_validation/`: completed public English transfer study with 96 prompts, 192 endpoint responses, final human-confirmed labels, structured L2 audit fields, run metadata, and metric code.
 
 ## Data exclusions
 
@@ -52,5 +52,5 @@ This artifact is released under CC BY 4.0. See `LICENSE.txt`.
 
 ## Archived versions
 
-Use `v1.0.1` for the corrected factual-control data. The original `v1.0.0` has a prompt-response-label alignment error; see `CORRECTIONS.md`. A Zenodo DOI may be added later as a persistent archive of a tagged release.
+Use `v1.0.2` for the corrected factual-control data plus the human-confirmed L2 structured audit. The original `v1.0.0` has a prompt-response-label alignment error; see `CORRECTIONS.md`. Version `v1.0.1` corrects that alignment but predates the structured audit fields. A Zenodo DOI may be added later as a persistent archive of a tagged release.
 

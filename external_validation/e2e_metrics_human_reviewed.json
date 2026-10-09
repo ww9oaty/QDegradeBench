@@ -1,5 +1,4 @@
 {
-  "source": "e2e_annotation_sheet_human_reviewed.csv",
   "overall": {
     "analysis_status": "complete",
     "CFO_eligible": 48,
@@ -47,7 +46,25 @@
       "no_observed_failure": 42,
       "L2": 6
     },
-    "trajectories": 48
+    "trajectories": 48,
+    "L2_structured_audit": {
+      "n": 48,
+      "unit": "response",
+      "unsupported_required_value": {
+        "count": 6,
+        "rate": 0.125
+      },
+      "complete_missing_acknowledgment": {
+        "count": 33,
+        "rate": 0.6875,
+        "partial_count": 6,
+        "none_count": 9
+      },
+      "factual_instruction_compliance": {
+        "count": 32,
+        "rate": 0.6666666666666666
+      }
+    }
   },
   "by_provider": {
     "DeepSeek-Official": {
@@ -96,7 +113,25 @@
         "no_observed_failure": 23,
         "L2": 1
       },
-      "trajectories": 24
+      "trajectories": 24,
+      "L2_structured_audit": {
+        "n": 24,
+        "unit": "response",
+        "unsupported_required_value": {
+          "count": 1,
+          "rate": 0.041666666666666664
+        },
+        "complete_missing_acknowledgment": {
+          "count": 23,
+          "rate": 0.9583333333333334,
+          "partial_count": 1,
+          "none_count": 0
+        },
+        "factual_instruction_compliance": {
+          "count": 22,
+          "rate": 0.9166666666666666
+        }
+      }
     },
     "Qwen-DashScope": {
       "analysis_status": "complete",
@@ -145,7 +180,25 @@
         "no_observed_failure": 19,
         "L2": 5
       },
-      "trajectories": 24
+      "trajectories": 24,
+      "L2_structured_audit": {
+        "n": 24,
+        "unit": "response",
+        "unsupported_required_value": {
+          "count": 5,
+          "rate": 0.20833333333333334
+        },
+        "complete_missing_acknowledgment": {
+          "count": 10,
+          "rate": 0.4166666666666667,
+          "partial_count": 5,
+          "none_count": 9
+        },
+        "factual_instruction_compliance": {
+          "count": 10,
+          "rate": 0.4166666666666667
+        }
+      }
     }
   }
 }

@@ -1,0 +1,20 @@
+{
+  "status": "human_confirmed",
+  "confirmed_on": "2026-10-09",
+  "confirmation_scope": "Seven boundary records in the three-way complete-missing-field acknowledgment audit",
+  "review_method": "AI-assisted Chinese translation and preliminary classification followed by explicit human confirmation against the displayed prompt-response evidence; not independent blinded English annotation",
+  "decisions": {
+    "E2E02_L2|deepseek-v4-pro": "partial",
+    "E2E04_L2|qwen3.7-plus": "partial",
+    "E2E10_L2|qwen3.7-plus": "partial",
+    "E2E11_L2|qwen3.7-plus": "partial",
+    "E2E13_L2|qwen3.7-plus": "partial",
+    "E2E22_L2|qwen3.7-plus": "partial",
+    "E2E23_L2|deepseek-v4-pro": "yes"
+  },
+  "decision_rule": {
+    "yes": "Both omitted required fields are explicitly identified as unknown or missing",
+    "partial": "Exactly one of the two omitted required fields is explicitly identified as unknown or missing",
+    "no": "Neither omitted required field is explicitly identified as unknown or missing"
+  }
+}

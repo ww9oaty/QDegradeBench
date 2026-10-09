@@ -1,0 +1,35 @@
+{
+  "overall": {
+    "n": 48,
+    "unsupported_required_value_count": 6,
+    "complete_acknowledgment_count": 33,
+    "partial_acknowledgment_count": 6,
+    "no_acknowledgment_count": 9,
+    "instruction_compliance_count": 32
+  },
+  "deepseek-v4-pro": {
+    "n": 24,
+    "unsupported_required_value_count": 1,
+    "complete_acknowledgment_count": 23,
+    "partial_acknowledgment_count": 1,
+    "no_acknowledgment_count": 0,
+    "instruction_compliance_count": 22
+  },
+  "qwen3.7-plus": {
+    "n": 24,
+    "unsupported_required_value_count": 5,
+    "complete_acknowledgment_count": 10,
+    "partial_acknowledgment_count": 5,
+    "no_acknowledgment_count": 9,
+    "instruction_compliance_count": 10
+  },
+  "acknowledgment_measure": {
+    "status": "human_confirmed",
+    "confirmed_on": "2026-10-09",
+    "categories": [
+      "yes",
+      "partial",
+      "no"
+    ]
+  }
+}

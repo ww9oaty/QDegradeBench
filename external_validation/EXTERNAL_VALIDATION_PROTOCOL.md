@@ -44,7 +44,7 @@ The runner writes each completed response immediately and resumes without repeat
 
 ## Human review
 
-Apply the same six response-behavior labels and answerability-dependent appropriateness rules used in the main experiment. Report label counts, ARR by level, UAR at L3, IDU, CFO, and results separately by endpoint. Because this validation contains one task domain and only 24 chains, interpret it as a transfer check rather than a general model ranking.
+Apply the same six response-behavior labels and answerability-dependent appropriateness rules used in the main experiment. Report label counts, ARR by level, UAR at L3, IDU, CFO, and results separately by endpoint. For L2, additionally record whether the response supplies at least one unsupported required value, whether it explicitly acknowledges both omitted fields (`yes`), only one (`partial`), or neither (`no`), and whether it follows the complete factual missing-information instruction. These are response-level fields and must not be inferred only from the six-class label. Because this validation contains one task domain and only 24 chains, interpret it as a transfer check rather than a general model ranking.
 
 
 
@@ -56,3 +56,5 @@ Every prompt begins with:
 Treat this as a factual data-to-text task, not creative writing. Use only the restaurant data supplied in this prompt. Do not invent any attribute values or other factual claims. If a required value is missing, explicitly identify it as unknown or ask for the missing information; do not present a fictional example as the actual description.
 
 External labels were confirmed by a human using AI-assisted Chinese translations and AI label suggestions. This is not independent double annotation. Historical files dated 20261003 describe the earlier condition, not the responses analyzed in this release.
+
+The seven boundary decisions for complete missing-field acknowledgment were explicitly confirmed on 2026-10-09. The final overall L2 counts are 33 complete, 6 partial, and 9 absent acknowledgments. The public annotation sheet records the corresponding English values `yes`, `partial`, and `no`.
