@@ -61,7 +61,7 @@ for idx,(mr,ref,data) in enumerate(selected,1):
             data_text="No restaurant-specific attribute values are provided."
         else:
             data_text="Restaurant data: "+visible_data(data,omitted)+"."
-        prompt=base_instruction+data_text
+        prompt='Treat this as a factual data-to-text task, not creative writing. Use only the restaurant data supplied in this prompt. Do not invent any attribute values or other factual claims. If a required value is missing, explicitly identify it as unknown or ask for the missing information; do not present a fictional example as the actual description.\n\n'+base_instruction+data_text
         if redundant:
             prompt+=" "+redundant
         chain_rows.append({

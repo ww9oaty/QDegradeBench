@@ -33,7 +33,7 @@ This transformation changes information availability without deleting the requir
 
 - Models actually used: `qwen3.7-plus` through an Alibaba Cloud Model Studio business-space endpoint and `deepseek-v4-pro` through the official DeepSeek API.
 - Prespecified Qwen identifier: `qwen3.7-plus-2026-05-26`. It was replaced by the authorized same-family alias `qwen3.7-plus` because the versioned identifier returned HTTP 403 in the configured business space. This substitution is recorded in the run metadata and must be disclosed in the manuscript.
-- Collection status as of 2026-10-03: 192/192 responses were collected successfully, with 24 responses per level for each model; all completed with `finish_reason=stop` and none were empty.
+- Factual-control collection completed as of 2026-10-08: 192/192 responses were collected successfully, with 24 responses per level for each model; all completed with `finish_reason=stop` and none were empty.
 - One independent request per endpoint-prompt pair.
 - System prompt: `You are a helpful AI assistant. Please answer the user question.`
 - Requested temperature: 0.
@@ -48,3 +48,11 @@ Apply the same six response-behavior labels and answerability-dependent appropri
 
 
 
+
+## Corrected factual-control release (2026-10-09)
+
+Every prompt begins with:
+
+Treat this as a factual data-to-text task, not creative writing. Use only the restaurant data supplied in this prompt. Do not invent any attribute values or other factual claims. If a required value is missing, explicitly identify it as unknown or ask for the missing information; do not present a fictional example as the actual description.
+
+External labels were confirmed by a human using AI-assisted Chinese translations and AI label suggestions. This is not independent double annotation. Historical files dated 20261003 describe the earlier condition, not the responses analyzed in this release.

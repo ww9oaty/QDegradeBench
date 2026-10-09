@@ -1,0 +1,9 @@
+{
+  "date": "2026-10-09",
+  "rows": 192,
+  "prompt_mismatches": 0,
+  "response_mismatches": 0,
+  "unique_prompt_records": 96,
+  "labels_changed": 0,
+  "review_provenance": "human confirmation with AI-assisted translation and label suggestions; not independent double annotation"
+}

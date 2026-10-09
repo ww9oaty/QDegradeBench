@@ -27,8 +27,8 @@
         "n_labeled": 48,
         "labels": {
           "PA": 34,
-          "UA": 6,
-          "CA": 8
+          "CA": 8,
+          "UA": 6
         },
         "ARR": 0.875,
         "UAR": null

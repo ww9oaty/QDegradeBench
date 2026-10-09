@@ -52,5 +52,5 @@ This artifact is released under CC BY 4.0. See `LICENSE.txt`.
 
 ## Archived versions
 
-The `v1.0.0` Git tag identifies the first public artifact version. A Zenodo DOI may be added later as a persistent archive of a tagged release.
+Use `v1.0.1` for the corrected factual-control data. The original `v1.0.0` has a prompt-response-label alignment error; see `CORRECTIONS.md`. A Zenodo DOI may be added later as a persistent archive of a tagged release.
 
