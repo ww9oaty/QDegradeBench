@@ -10,11 +10,11 @@ QDegradeBench: Matched Information-Degradation Chains and Human-Labeled LLM Resp
 
 ## Publication date
 
-2026-10-09
+2026-10-10
 
 ## Version
 
-1.0.2
+1.0.3
 
 ## Creators, in order
 
@@ -32,6 +32,8 @@ QDegradeBench is a research dataset for evaluating large language model behavior
 The package also contains a public English transfer study constructed from 24 E2E NLG Challenge records. Its 96 matched prompts produced 192 responses from two endpoints. The released external-validation records include source and omission metadata, final human-confirmed labels, and a structured L2 audit of unsupported required values, complete or partial missing-field acknowledgment, and factual-instruction compliance. English review used AI-assisted Chinese translations and preliminary suggestions followed by explicit human confirmation; it was not independent blinded English annotation.
 
 The package includes annotation guidance, experimental and collection metadata, integrity records, and standard-library Python scripts that reproduce ARR, UAR, IDU, critical-information failure onset, agreement, Cohen's kappa, and the external L2 audit rates. AI-generated preliminary labels, reviewer identities, private notes, credentials, and service configuration are excluded.
+
+The package also includes a public-data control derived from 32 HotpotQA bridge questions and their official sentence-level supporting-fact coordinates. It provides 128 prompts and responses, strict automatic scores, a completed 40-response single-reviewer semantic audit, and a disclosed 30-chain sensitivity analysis excluding two residual-cue trajectories. This audit was not independent or blinded.
 
 ## Keywords
 
@@ -51,4 +53,4 @@ https://github.com/ww9oaty/QDegradeBench — Is supplement to this upload
 
 ## DOI setting
 
-Select “No” for an existing DOI, then use “Get a DOI now” to reserve a Zenodo DOI before publication. Insert that DOI into the paper's Data Availability section. Upload `QDegradeBench_reproducibility_package.zip`. Do not publish until the author order, version 1.0.2, license, uploaded ZIP, and record preview have been checked.
+Select “No” for an existing DOI, then use “Get a DOI now” to reserve a Zenodo DOI before publication. Insert that DOI into the paper's Data Availability section. Upload `QDegradeBench_reproducibility_package.zip`. Do not publish until the author order, version 1.0.3, license, uploaded ZIP, and record preview have been checked.

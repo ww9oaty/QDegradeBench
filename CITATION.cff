@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "If you use this dataset, please cite it using the metadata below."
 title: "QDegradeBench: Matched Information-Degradation Chains and Human-Labeled LLM Responses"
 type: dataset
-version: 1.0.2
-date-released: 2026-10-09
+version: 1.0.3
+date-released: 2026-10-10
 authors:
   - family-names: Wang
     given-names: Wenyue

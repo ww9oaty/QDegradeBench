@@ -13,7 +13,7 @@ Public repository: https://github.com/ww9oaty/QDegradeBench
 - `LABELS.md`: response labels and answerability categories.
 - `DATA_DICTIONARY.md`: field definitions.
 - `analysis/reproduce_metrics.py`: reproduces the main counts, ARR, UAR, IDU, CFO distribution, agreement, and Cohen's kappa.
-- `external_validation/`: completed public English transfer study with 96 prompts, 192 endpoint responses, final human-confirmed labels, structured L2 audit fields, run metadata, and metric code.
+- `external_validation/`: two public English controls: the 24-chain E2E transfer study and the 32-chain HotpotQA evidence-deletion study.
 
 ## Data exclusions
 
@@ -35,6 +35,13 @@ To reproduce the public English external-validation metrics, run:
 python external_validation/compute_e2e_metrics.py external_validation/e2e_annotation_sheet_human_reviewed.csv
 ```
 
+The HotpotQA control is in `external_validation/hotpotqa_control/`. Its clean
+formal files contain 128 successful DeepSeek responses. The directory includes
+the deterministic constructor, source checksum, strict automatic scores,
+40-response human semantic audit, and a disclosed 30-chain construct
+sensitivity that excludes two residual-cue trajectories. See its `README.md`
+and `HOTPOTQA_FORMAL_RUN_REPORT.md` for commands and interpretation limits.
+
 ## Dataset structure
 
 Each base task has four matched prompts:
@@ -52,5 +59,10 @@ This artifact is released under CC BY 4.0. See `LICENSE.txt`.
 
 ## Archived versions
 
-Use `v1.0.2` for the corrected factual-control data plus the human-confirmed L2 structured audit. The original `v1.0.0` has a prompt-response-label alignment error; see `CORRECTIONS.md`. Version `v1.0.1` corrects that alignment but predates the structured audit fields. A Zenodo DOI may be added later as a persistent archive of a tagged release.
+Version `v1.0.3` adds the HotpotQA public-data control and its completed
+40-response single-reviewer semantic audit. Tag `v1.0.2` contains the corrected
+E2E factual-control data plus its human-confirmed L2 structured audit. The
+original `v1.0.0` has a prompt-response-label alignment error; see
+`CORRECTIONS.md`. Version `v1.0.1` corrects that alignment but predates the
+structured audit fields.
 
