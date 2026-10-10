@@ -47,6 +47,6 @@ Manual inspection found two L2 prompts with residual answer cues: HP09 retained 
 
 This control reduces dependence on author-written tasks because the questions, gold answers, and sentence-level supporting facts come from a public benchmark. It does not eliminate judgment from the derived degradation procedure. L2 answer emissions are therefore described as unsupported-answer emissions under the visible evidence, not automatically as hallucinations. The strong L3 abstention rate may reflect the explicit evidence-only instruction and clear absence of context; it is not evidence that the model reliably recognizes all unknowns.
 
-## Remaining verification
+## Human semantic audit
 
-The automatic scorer uses normalized exact match as the pre-specified binary L0/L1 criterion, with token F1 reported continuously. Human audit is still required because semantically correct variants such as `Pac-12 Conference` versus `Pac-12` can fail exact match. The prepared audit contains a 10% stratified sample plus every automatic failure.
+The automatic scorer uses normalized exact match as the pre-specified binary L0/L1 criterion, with token F1 reported continuously. One human reviewer checked 40 of 128 responses: a stratified sample plus every automatic failure. The audit changed 21 automatic dispositions, including semantically correct variants such as `Pac-12 Conference` versus `Pac-12` and two residual-cue cases reclassified as construct leakage. In the declared 30-chain sensitivity, human-adjudicated ARR was 90.0% at L0, 93.3% at L1, 76.7% at L2, and 100.0% at L3; seven L2 responses emitted unsupported answers. The review was not independent or blinded, and the original automatic outcomes remain available.

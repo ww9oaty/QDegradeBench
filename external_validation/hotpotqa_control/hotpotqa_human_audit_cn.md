@@ -393,4 +393,4 @@
 
 人工复核会把多项纯字符串差异改为语义正确，例如 Pac-12/Pac-12 Conference、runway/runway facilities、three/3。最终论文应同时报告预注册式严格自动结果与人工语义审计结果，避免只挑有利口径。
 
-当前状态：本文件只是预填建议，尚不能写成“人工确认”。只有在复核者明确回复后，才能回填 `human_agrees_yes_no`、`human_outcome` 和 `human_note`。
+复核状态：40条已由一名人工复核者分八批逐条检查，未提出结论修改；`human_agrees_yes_no`、`human_outcome` 和 `human_note` 已回填。该过程属于单人、非盲复核，不表述为独立双人标注。

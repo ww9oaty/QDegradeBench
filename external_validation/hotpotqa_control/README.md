@@ -59,9 +59,10 @@ API keys are read only from `DASHSCOPE_API_KEY` and `DEEPSEEK_API_KEY`.
 - `POST_COLLECTION_CONSTRUCT_AUDIT.md`: why HP09 and HP23 remain in the primary
   result but are excluded from the sensitivity analysis.
 - `hotpotqa_human_audit.csv`: 10% stratified sample plus every automatic
-  failure; human decision columns remain blank until a reviewer confirms them.
+  failure; all 40 rows contain the completed single-reviewer semantic decision.
 - `hotpotqa_human_audit_cn.md`: Chinese review aid with a proposed judgment and
-  explicit basis for each of the 40 audit rows.
+  explicit basis for each of the 40 audit rows. The reviewer checked the rows
+  sequentially in eight five-item batches.
 
 The original append-only `hotpotqa_responses.jsonl` is retained as local run
 history. Public releases should use the clean formal response files and retain
