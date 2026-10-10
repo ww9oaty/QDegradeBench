@@ -1,0 +1,63 @@
+{
+  "source": {
+    "path": "C:\\Users\\34809\\Documents\\Codex\\2026-08-25\\sci-paper-writing-coach\\outputs\\QDegradeBench_revision\\external_validation\\hotpotqa_control\\hotpot_distractor_validation.parquet",
+    "format": "hf_parquet_mirror",
+    "sha256": "c20b638ca82b21d04fe12e14ff417ad05153d4d215a65de54497fca4e972f7c6",
+    "matches_published_sha256": true
+  },
+  "seed": 20261009,
+  "target_chains": 32,
+  "source_counts": {
+    "total_source": 7405,
+    "exclude_not_bridge": 1487,
+    "exclude_nonunique_answer_support": 938,
+    "exclude_answer_in_nonsupport": 1040,
+    "exclude_answer_in_question": 105,
+    "exclude_near_answer_alias_in_l2": 899,
+    "exclude_invalid_l2": 248,
+    "exclude_answer_type": 55,
+    "exclude_answer_in_fixed_template": 2,
+    "exclude_invalid_or_short_support": 1,
+    "eligible": 2630,
+    "exclude_manual_construct_invalid": 1
+  },
+  "output_rows": 128,
+  "selected_source_ids": [
+    "5a8a231a55429930ff3c0cb4",
+    "5ae6638555429908198fa5ba",
+    "5ac290e85542992f1f2b3916",
+    "5a7a4ca955429941d65f25a3",
+    "5ab8829d55429934fafe6e08",
+    "5a8e82ff5542995a26add4e2",
+    "5ab2d65e554299545a2cfabe",
+    "5a8b69f45542997f31a41d19",
+    "5ade0fbb5542995b365fabfb",
+    "5ab90d8955429916710eb0f1",
+    "5ae1894f5542997b2ef7d1f4",
+    "5adcf3a45542994ed6169c38",
+    "5a906c795542990a98493640",
+    "5adfe0de55429925eb1afae9",
+    "5a89d8d055429946c8d6e9df",
+    "5abc32cb55429959677d6a40",
+    "5ab4304a55429942dd415ec5",
+    "5ae617285542996de7b71b4c",
+    "5ac18b585542994ab5c67d76",
+    "5ae077735542993d6555eb6d",
+    "5ade1c9e55429939a52fe822",
+    "5a8e08d35542995085b37395",
+    "5ae6e36155429908198fa6d3",
+    "5add114a5542994734353826",
+    "5ae351405542994393b9e67f",
+    "5ac1a3665542994ab5c67daf",
+    "5ae324775542994393b9e62f",
+    "5a89e0ec5542992e4fca8427",
+    "5ae1faf15542997f29b3c1e3",
+    "5a8e60ca5542995a26add4d9",
+    "5ae2fa1b55429928c4239583",
+    "5a7c6ed3554299683c1c6306"
+  ],
+  "manual_construct_exclusions": {
+    "5a7e7c725542991319bc94be": "Question asks when a race was won, but the official supporting facts only state the horse's foaling date and the gold answer is the foaling date."
+  },
+  "selection_independent_of_model_outputs": true
+}

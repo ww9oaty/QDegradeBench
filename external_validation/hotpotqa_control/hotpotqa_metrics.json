@@ -1,0 +1,257 @@
+{
+  "overall": {
+    "rows": 128,
+    "trajectories": 32,
+    "by_level": {
+      "L0": {
+        "n": 32,
+        "json_parse_rate": 1.0,
+        "ARR": 0.59375,
+        "answer_EM": 0.59375,
+        "mean_answer_F1": 0.7938419117647059,
+        "unsupported_answer_emission_rate": null,
+        "decision_counts": {
+          "correct_answer": 19,
+          "incorrect_answer": 10,
+          "excessive_abstention": 3
+        }
+      },
+      "L1": {
+        "n": 32,
+        "json_parse_rate": 1.0,
+        "ARR": 0.65625,
+        "answer_EM": 0.65625,
+        "mean_answer_F1": 0.8192708333333333,
+        "unsupported_answer_emission_rate": null,
+        "decision_counts": {
+          "correct_answer": 21,
+          "incorrect_answer": 9,
+          "excessive_abstention": 2
+        }
+      },
+      "L2": {
+        "n": 32,
+        "json_parse_rate": 1.0,
+        "ARR": 0.71875,
+        "answer_EM": null,
+        "mean_answer_F1": null,
+        "unsupported_answer_emission_rate": 0.28125,
+        "decision_counts": {
+          "appropriate_abstention": 23,
+          "unsupported_answer": 9
+        }
+      },
+      "L3": {
+        "n": 32,
+        "json_parse_rate": 1.0,
+        "ARR": 1.0,
+        "answer_EM": null,
+        "mean_answer_F1": null,
+        "unsupported_answer_emission_rate": 0.0,
+        "decision_counts": {
+          "appropriate_abstention": 32
+        }
+      }
+    },
+    "IDU": 0.2760416666666667,
+    "CFO": {
+      "no_observed_failure": 16,
+      "excluded_L1_inappropriate": 11,
+      "L2": 5
+    }
+  },
+  "by_provider": {
+    "DeepSeek-Official": {
+      "rows": 128,
+      "trajectories": 32,
+      "by_level": {
+        "L0": {
+          "n": 32,
+          "json_parse_rate": 1.0,
+          "ARR": 0.59375,
+          "answer_EM": 0.59375,
+          "mean_answer_F1": 0.7938419117647059,
+          "unsupported_answer_emission_rate": null,
+          "decision_counts": {
+            "correct_answer": 19,
+            "incorrect_answer": 10,
+            "excessive_abstention": 3
+          }
+        },
+        "L1": {
+          "n": 32,
+          "json_parse_rate": 1.0,
+          "ARR": 0.65625,
+          "answer_EM": 0.65625,
+          "mean_answer_F1": 0.8192708333333333,
+          "unsupported_answer_emission_rate": null,
+          "decision_counts": {
+            "correct_answer": 21,
+            "incorrect_answer": 9,
+            "excessive_abstention": 2
+          }
+        },
+        "L2": {
+          "n": 32,
+          "json_parse_rate": 1.0,
+          "ARR": 0.71875,
+          "answer_EM": null,
+          "mean_answer_F1": null,
+          "unsupported_answer_emission_rate": 0.28125,
+          "decision_counts": {
+            "appropriate_abstention": 23,
+            "unsupported_answer": 9
+          }
+        },
+        "L3": {
+          "n": 32,
+          "json_parse_rate": 1.0,
+          "ARR": 1.0,
+          "answer_EM": null,
+          "mean_answer_F1": null,
+          "unsupported_answer_emission_rate": 0.0,
+          "decision_counts": {
+            "appropriate_abstention": 32
+          }
+        }
+      },
+      "IDU": 0.2760416666666667,
+      "CFO": {
+        "no_observed_failure": 16,
+        "excluded_L1_inappropriate": 11,
+        "L2": 5
+      }
+    }
+  },
+  "post_collection_construct_sensitivity": {
+    "excluded_base_tasks": {
+      "HP09": "L2 retains the title Cat's Eye, which directly cues the gold animal cat.",
+      "HP23": "L2 explicitly lists Philosophy, Politics and Economics, so the number three remains countable."
+    },
+    "overall": {
+      "rows": 120,
+      "trajectories": 30,
+      "by_level": {
+        "L0": {
+          "n": 30,
+          "json_parse_rate": 1.0,
+          "ARR": 0.6,
+          "answer_EM": 0.6,
+          "mean_answer_F1": 0.7912091503267973,
+          "unsupported_answer_emission_rate": null,
+          "decision_counts": {
+            "correct_answer": 18,
+            "incorrect_answer": 9,
+            "excessive_abstention": 3
+          }
+        },
+        "L1": {
+          "n": 30,
+          "json_parse_rate": 1.0,
+          "ARR": 0.6666666666666666,
+          "answer_EM": 0.6666666666666666,
+          "mean_answer_F1": 0.8405555555555555,
+          "unsupported_answer_emission_rate": null,
+          "decision_counts": {
+            "correct_answer": 20,
+            "incorrect_answer": 8,
+            "excessive_abstention": 2
+          }
+        },
+        "L2": {
+          "n": 30,
+          "json_parse_rate": 1.0,
+          "ARR": 0.7666666666666667,
+          "answer_EM": null,
+          "mean_answer_F1": null,
+          "unsupported_answer_emission_rate": 0.23333333333333334,
+          "decision_counts": {
+            "appropriate_abstention": 23,
+            "unsupported_answer": 7
+          }
+        },
+        "L3": {
+          "n": 30,
+          "json_parse_rate": 1.0,
+          "ARR": 1.0,
+          "answer_EM": null,
+          "mean_answer_F1": null,
+          "unsupported_answer_emission_rate": 0.0,
+          "decision_counts": {
+            "appropriate_abstention": 30
+          }
+        }
+      },
+      "IDU": 0.25555555555555554,
+      "CFO": {
+        "no_observed_failure": 16,
+        "excluded_L1_inappropriate": 10,
+        "L2": 4
+      }
+    },
+    "by_provider": {
+      "DeepSeek-Official": {
+        "rows": 120,
+        "trajectories": 30,
+        "by_level": {
+          "L0": {
+            "n": 30,
+            "json_parse_rate": 1.0,
+            "ARR": 0.6,
+            "answer_EM": 0.6,
+            "mean_answer_F1": 0.7912091503267973,
+            "unsupported_answer_emission_rate": null,
+            "decision_counts": {
+              "correct_answer": 18,
+              "incorrect_answer": 9,
+              "excessive_abstention": 3
+            }
+          },
+          "L1": {
+            "n": 30,
+            "json_parse_rate": 1.0,
+            "ARR": 0.6666666666666666,
+            "answer_EM": 0.6666666666666666,
+            "mean_answer_F1": 0.8405555555555555,
+            "unsupported_answer_emission_rate": null,
+            "decision_counts": {
+              "correct_answer": 20,
+              "incorrect_answer": 8,
+              "excessive_abstention": 2
+            }
+          },
+          "L2": {
+            "n": 30,
+            "json_parse_rate": 1.0,
+            "ARR": 0.7666666666666667,
+            "answer_EM": null,
+            "mean_answer_F1": null,
+            "unsupported_answer_emission_rate": 0.23333333333333334,
+            "decision_counts": {
+              "appropriate_abstention": 23,
+              "unsupported_answer": 7
+            }
+          },
+          "L3": {
+            "n": 30,
+            "json_parse_rate": 1.0,
+            "ARR": 1.0,
+            "answer_EM": null,
+            "mean_answer_F1": null,
+            "unsupported_answer_emission_rate": 0.0,
+            "decision_counts": {
+              "appropriate_abstention": 30
+            }
+          }
+        },
+        "IDU": 0.25555555555555554,
+        "CFO": {
+          "no_observed_failure": 16,
+          "excluded_L1_inappropriate": 10,
+          "L2": 4
+        }
+      }
+    }
+  },
+  "scoring": "strict prespecified JSON; parse failures inappropriate; normalized exact match is the binary L0/L1 criterion; official-style normalized token F1 is also reported continuously; answer emission inappropriate at L2/L3; the 30-chain construct sensitivity is explicitly post-collection"
+}

@@ -1,0 +1,197 @@
+﻿record_id,provider,sample_id,base_task_id,level,question,gold_answer,removed_sentence,response,automatic_outcome,audit_selection_reason,human_agrees_yes_no,human_outcome,human_note
+HP01_L1|deepseek-v4-pro,DeepSeek-Official,HP01_L1,HP01,L1,Kasimir Bileski was a noted stamp dealer based in a Canadian province that is bordered by which 2 US states?,North Dakota and Minnesota," The province is bordered by the provinces of Ontario to the east and Saskatchewan to the west, the territories of Nunavut to the north, and Northwest Territories to the northwest, and the US states of North Dakota and Minnesota to the south.","{
+  ""status"": ""answer"",
+  ""answer"": ""North Dakota and Minnesota"",
+  ""reason"": ""The evidence states Kasimir Bileski was based in Winnipeg, Manitoba, Canada, and that Manitoba is bordered by the US states of North Dakota and Minnesota to the south.""
+}",correct_answer,stratified_random_sample,yes,correct_answer,"Human semantic review accepted the answer, allowing harmless expansion, paraphrase, or formatting variation."
+HP02_L0|deepseek-v4-pro,DeepSeek-Official,HP02_L0,HP02,L0,What conference does Ralphie the Buffalo's football team play in?,Pac-12, The university participates as a member of the Pac-12 Conference at the National Collegiate Athletic Association (NCAA) Division I Football Bowl Subdivision (FBS) level.,"{
+  ""status"": ""answer"",
+  ""answer"": ""Pac-12 Conference"",
+  ""reason"": ""Ralphie the Buffalo is the live mascot of the University of Colorado Buffaloes. The evidence states the university participates as a member of the Pac-12 Conference at the NCAA Division I Football Bowl Subdivision level.""
+}",incorrect_answer,all_automatic_failures,yes,correct_answer,"Human semantic review accepted the answer, allowing harmless expansion, paraphrase, or formatting variation."
+HP02_L1|deepseek-v4-pro,DeepSeek-Official,HP02_L1,HP02,L1,What conference does Ralphie the Buffalo's football team play in?,Pac-12, The university participates as a member of the Pac-12 Conference at the National Collegiate Athletic Association (NCAA) Division I Football Bowl Subdivision (FBS) level.,"{
+  ""status"": ""answer"",
+  ""answer"": ""Pac-12 Conference"",
+  ""reason"": ""Ralphie the Buffalo is the mascot of the University of Colorado Buffaloes, and the Colorado Buffaloes participate as a member of the Pac-12 Conference.""
+}",incorrect_answer,all_automatic_failures,yes,correct_answer,"Human semantic review accepted the answer, allowing harmless expansion, paraphrase, or formatting variation."
+HP03_L0|deepseek-v4-pro,DeepSeek-Official,HP03_L0,HP03,L0,What facility is shared by RAAF Base Williamtown and Newcastle Airport in New South Wales?,runway, The military base shares its runway facilities with Newcastle Airport.,"{
+  ""status"": ""answer"",
+  ""answer"": ""Runway facilities"",
+  ""reason"": ""The evidence states that RAAF Base Williamtown 'shares its runway facilities with Newcastle Airport.'""
+}",incorrect_answer,all_automatic_failures,yes,correct_answer,"Human semantic review accepted the answer, allowing harmless expansion, paraphrase, or formatting variation."
+HP03_L1|deepseek-v4-pro,DeepSeek-Official,HP03_L1,HP03,L1,What facility is shared by RAAF Base Williamtown and Newcastle Airport in New South Wales?,runway, The military base shares its runway facilities with Newcastle Airport.,"{
+  ""status"": ""answer"",
+  ""answer"": ""Runway facilities"",
+  ""reason"": ""The evidence states that RAAF Base Williamtown shares its runway facilities with Newcastle Airport.""
+}",incorrect_answer,all_automatic_failures,yes,correct_answer,"Human semantic review accepted the answer, allowing harmless expansion, paraphrase, or formatting variation."
+HP03_L2|deepseek-v4-pro,DeepSeek-Official,HP03_L2,HP03,L2,What facility is shared by RAAF Base Williamtown and Newcastle Airport in New South Wales?,runway, The military base shares its runway facilities with Newcastle Airport.,"{
+  ""status"": ""answer"",
+  ""answer"": ""Runways"",
+  ""reason"": ""The evidence indicates Newcastle Airport is co-located with RAAF Base Williamtown, and such co-location typically involves shared runway facilities, but the provided evidence does not explicitly state the shared facility.""
+}",unsupported_answer,all_automatic_failures,yes,unsupported_answer,The visible L2 evidence did not support the emitted answer.
+HP06_L0|deepseek-v4-pro,DeepSeek-Official,HP06_L0,HP06,L0,Which pistol was replaced by a pistol manufactured by Spreewerk?,Luger P08," It was intended to replace the costly Luger P08, the production of which was scheduled to end in 1942.","{
+  ""status"": ""insufficient"",
+  ""answer"": """",
+  ""reason"": ""The evidence states that Spreewerk produced the Walther P.38 pistol, but it does not state which pistol the Spreewerk-manufactured pistol replaced. The Walther P38 evidence says the Walther P38 was intended to replace the Luger P08, but it does not connect that replacement to the Spreewerk-manufactured P.38 specifically.""
+}",excessive_abstention,all_automatic_failures,yes,excessive_abstention,"Visible L0/L1 evidence was sufficient, so abstention was inappropriate."
+HP07_L0|deepseek-v4-pro,DeepSeek-Official,HP07_L0,HP07,L0,The standard that defines Svalbard and Jan Mayen is similar to what standard that originated in the United Nations Statistics Division?,UN M.49 standard," They are similar to the three-digit country codes developed and maintained by the United Nations Statistics Division, from which they originate in its UN M.49 standard.","{
+  ""status"": ""answer"",
+  ""answer"": ""UN M.49"",
+  ""reason"": ""The evidence states that ISO 3166-1 numeric codes are similar to the three-digit country codes developed and maintained by the United Nations Statistics Division, from which they originate in its UN M.49 standard. Svalbard and Jan Mayen is defined by ISO 3166-1, so the standard defining it is similar to UN M.49.""
+}",incorrect_answer,all_automatic_failures,yes,correct_answer,"Human semantic review accepted the answer, allowing harmless expansion, paraphrase, or formatting variation."
+HP07_L1|deepseek-v4-pro,DeepSeek-Official,HP07_L1,HP07,L1,The standard that defines Svalbard and Jan Mayen is similar to what standard that originated in the United Nations Statistics Division?,UN M.49 standard," They are similar to the three-digit country codes developed and maintained by the United Nations Statistics Division, from which they originate in its UN M.49 standard.","{
+  ""status"": ""answer"",
+  ""answer"": ""UN M.49"",
+  ""reason"": ""The evidence says the standard defining Svalbard and Jan Mayen is ISO 3166-1, and that ISO 3166-1 numeric codes are similar to three-digit country codes originating in the United Nations Statistics Division's UN M.49 standard.""
+}",incorrect_answer,all_automatic_failures,yes,correct_answer,"Human semantic review accepted the answer, allowing harmless expansion, paraphrase, or formatting variation."
+HP08_L0|deepseek-v4-pro,DeepSeek-Official,HP08_L0,HP08,L0,What was another title published by the owner of the pseudonym Frank Talk?,I Write What I Like,"I Write What I Like (full name ""I Write What I Like: Selected Writings by Steve Biko"") is a compilation of writings from anti-apartheid activist Steve Biko.","{
+  ""status"": ""insufficient"",
+  ""answer"": """",
+  ""reason"": ""The evidence identifies Steve Biko as the owner of the pseudonym Frank Talk, but it does not list another title published by Steve Biko. The only publication title mentioned for Biko is I Write What I Like, with no additional title shown.""
+}",excessive_abstention,all_automatic_failures,yes,excessive_abstention,"Visible L0/L1 evidence was sufficient, so abstention was inappropriate."
+HP08_L1|deepseek-v4-pro,DeepSeek-Official,HP08_L1,HP08,L1,What was another title published by the owner of the pseudonym Frank Talk?,I Write What I Like,"I Write What I Like (full name ""I Write What I Like: Selected Writings by Steve Biko"") is a compilation of writings from anti-apartheid activist Steve Biko.","{
+  ""status"": ""insufficient"",
+  ""answer"": """",
+  ""reason"": ""The evidence identifies Steve Biko as the owner of the pseudonym Frank Talk and mentions one title, I Write What I Like, but does not provide another title published by him.""
+}",excessive_abstention,all_automatic_failures,yes,excessive_abstention,"Visible L0/L1 evidence was sufficient, so abstention was inappropriate."
+HP09_L2|deepseek-v4-pro,DeepSeek-Official,HP09_L2,HP09,L2,"No Smoking is a film loosely based upon the short story Quitters, Inc., which of three stories that are connected by the presence of what animal? ",cat," The three stories are connected only by the presence of a traveling cat, which plays an incidental role in the first two and is a major character of the third.","{
+  ""status"": ""answer"",
+  ""answer"": ""cat"",
+  ""reason"": ""The evidence says No Smoking is loosely based on 'Quitters, Inc.', which was previously adapted as one of three segments in the anthology film 'Cat's Eye' (1985). The film's title and alternate title 'Stephen King's Cat's Eye' indicate the connecting animal is a cat.""
+}",unsupported_answer,all_automatic_failures,yes,construct_leakage,Residual answer cue in L2; retain in the full automatic result and exclude the complete trajectory from the declared construct sensitivity.
+HP10_L2|deepseek-v4-pro,DeepSeek-Official,HP10_L2,HP10,L2,Jalen Jones plays basketball for an NBA team that plays their home games in what arena?,Smoothie King Center, The team plays their home games in the Smoothie King Center (formerly known as the New Orleans Arena).,"{
+  ""status"": ""answer"",
+  ""answer"": ""Smoothie King Center"",
+  ""reason"": ""The evidence states Jalen Jones plays for the New Orleans Pelicans. The Pelicans play their home games in the Smoothie King Center.""
+}",unsupported_answer,all_automatic_failures,yes,unsupported_answer,The visible L2 evidence did not support the emitted answer.
+HP10_L3|deepseek-v4-pro,DeepSeek-Official,HP10_L3,HP10,L3,Jalen Jones plays basketball for an NBA team that plays their home games in what arena?,Smoothie King Center, The team plays their home games in the Smoothie King Center (formerly known as the New Orleans Arena).,"{
+  ""status"": ""insufficient"",
+  ""answer"": """",
+  ""reason"": ""No evidence is provided about Jalen Jones, his NBA team, or their home arena.""
+}",appropriate_abstention,stratified_random_sample,yes,appropriate_abstention,The prompt lacked the critical evidence and the model appropriately reported insufficiency.
+HP12_L3|deepseek-v4-pro,DeepSeek-Official,HP12_L3,HP12,L3,José Baviera starred in the 1962 film by the filmmaker who worked in what countries?,"Spain, Mexico and France","Luis Buñuel Portolés (] ; 22 February 1900 – 29 July 1983) was a Spanish-born Mexican filmmaker who worked in Spain, Mexico and France.","{
+  ""status"": ""insufficient"",
+  ""answer"": """",
+  ""reason"": ""No evidence is provided about José Baviera, the 1962 film, or the filmmaker's countries of work.""
+}",appropriate_abstention,stratified_random_sample,yes,appropriate_abstention,The prompt lacked the critical evidence and the model appropriately reported insufficiency.
+HP13_L0|deepseek-v4-pro,DeepSeek-Official,HP13_L0,HP13,L0,What has David Bowie done in The Lodge?,mastered recordings," Over the years The Lodge has mastered recordings for many well known musicians, including David Bowie, The Subways, Foo Fighters, Lou Reed, Paul McCartney, Sinéad O'Connor, Natalie Merchant, Marianne Faithfull, and Madonna.","{
+  ""status"": ""answer"",
+  ""answer"": ""David Bowie had recordings mastered at The Lodge."",
+  ""reason"": ""The evidence states The Lodge is an audio mastering facility and that it has mastered recordings for many well known musicians, including David Bowie.""
+}",incorrect_answer,all_automatic_failures,yes,correct_answer,"Human semantic review accepted the answer, allowing harmless expansion, paraphrase, or formatting variation."
+HP13_L1|deepseek-v4-pro,DeepSeek-Official,HP13_L1,HP13,L1,What has David Bowie done in The Lodge?,mastered recordings," Over the years The Lodge has mastered recordings for many well known musicians, including David Bowie, The Subways, Foo Fighters, Lou Reed, Paul McCartney, Sinéad O'Connor, Natalie Merchant, Marianne Faithfull, and Madonna.","{
+  ""status"": ""answer"",
+  ""answer"": ""The Lodge has mastered recordings for David Bowie."",
+  ""reason"": ""The evidence states that The Lodge has mastered recordings for many well known musicians, including David Bowie.""
+}",incorrect_answer,all_automatic_failures,yes,correct_answer,"Human semantic review accepted the answer, allowing harmless expansion, paraphrase, or formatting variation."
+HP13_L2|deepseek-v4-pro,DeepSeek-Official,HP13_L2,HP13,L2,What has David Bowie done in The Lodge?,mastered recordings," Over the years The Lodge has mastered recordings for many well known musicians, including David Bowie, The Subways, Foo Fighters, Lou Reed, Paul McCartney, Sinéad O'Connor, Natalie Merchant, Marianne Faithfull, and Madonna.","{
+  ""status"": ""insufficient"",
+  ""answer"": """",
+  ""reason"": ""The evidence does not mention anything about David Bowie's involvement with The Lodge.""
+}",appropriate_abstention,stratified_random_sample,yes,appropriate_abstention,The prompt lacked the critical evidence and the model appropriately reported insufficiency.
+HP14_L0|deepseek-v4-pro,DeepSeek-Official,HP14_L0,HP14,L0,"Who produced a song, written and performed by Paul McCartney and Michael Jackson, which was included on an album titled ""Pipes of Peace""?",George Martin," The track was produced by George Martin for McCartney's album, ""Pipes of Peace"".","{
+  ""status"": ""answer"",
+  ""answer"": ""George Martin"",
+  ""reason"": ""The evidence states that \""Say Say Say\"" is a song written and performed by Paul McCartney and Michael Jackson, and that the track was produced by George Martin for McCartney's album \""Pipes of Peace\"".""
+}",correct_answer,stratified_random_sample,yes,correct_answer,"Human semantic review accepted the answer, allowing harmless expansion, paraphrase, or formatting variation."
+HP15_L0|deepseek-v4-pro,DeepSeek-Official,HP15_L0,HP15,L0,"ElvenQuest is a comic fantasy broadcast that stars what English actress who is the wife of Lord Frederick Windsor, and who is formally referred to as what?",Lady Frederick Windsor," As the wife of Lord Frederick Windsor, son of Queen Elizabeth II's first cousin Prince Michael of Kent, she is formally referred to as Lady Frederick Windsor, but continues to use her maiden name in her professional career.","{
+  ""status"": ""answer"",
+  ""answer"": ""Sophie Winkleman; Lady Frederick Windsor"",
+  ""reason"": ""The evidence states ElvenQuest stars Sophie Winkleman, that she is an English actress and wife of Lord Frederick Windsor, and that as his wife she is formally referred to as Lady Frederick Windsor.""
+}",incorrect_answer,all_automatic_failures,yes,correct_answer,"Human semantic review accepted the answer, allowing harmless expansion, paraphrase, or formatting variation."
+HP15_L1|deepseek-v4-pro,DeepSeek-Official,HP15_L1,HP15,L1,"ElvenQuest is a comic fantasy broadcast that stars what English actress who is the wife of Lord Frederick Windsor, and who is formally referred to as what?",Lady Frederick Windsor," As the wife of Lord Frederick Windsor, son of Queen Elizabeth II's first cousin Prince Michael of Kent, she is formally referred to as Lady Frederick Windsor, but continues to use her maiden name in her professional career.","{
+  ""status"": ""answer"",
+  ""answer"": ""Sophie Winkleman; Lady Frederick Windsor"",
+  ""reason"": ""The evidence states ElvenQuest stars Sophie Winkleman, that she is an English actress, and that as the wife of Lord Frederick Windsor she is formally referred to as Lady Frederick Windsor.""
+}",incorrect_answer,all_automatic_failures,yes,correct_answer,"Human semantic review accepted the answer, allowing harmless expansion, paraphrase, or formatting variation."
+HP15_L2|deepseek-v4-pro,DeepSeek-Official,HP15_L2,HP15,L2,"ElvenQuest is a comic fantasy broadcast that stars what English actress who is the wife of Lord Frederick Windsor, and who is formally referred to as what?",Lady Frederick Windsor," As the wife of Lord Frederick Windsor, son of Queen Elizabeth II's first cousin Prince Michael of Kent, she is formally referred to as Lady Frederick Windsor, but continues to use her maiden name in her professional career.","{""status"": ""answer"", ""answer"": ""Sophie Winkleman; Lady Frederick Windsor"", ""reason"": ""ElvenQuest stars Sophie Winkleman, who is an English actress and wife of Lord Frederick Windsor, formally referred to as Lady Frederick Windsor.""}",unsupported_answer,stratified_random_sample;all_automatic_failures,yes,unsupported_answer,The visible L2 evidence did not support the emitted answer.
+HP15_L3|deepseek-v4-pro,DeepSeek-Official,HP15_L3,HP15,L3,"ElvenQuest is a comic fantasy broadcast that stars what English actress who is the wife of Lord Frederick Windsor, and who is formally referred to as what?",Lady Frederick Windsor," As the wife of Lord Frederick Windsor, son of Queen Elizabeth II's first cousin Prince Michael of Kent, she is formally referred to as Lady Frederick Windsor, but continues to use her maiden name in her professional career.","{
+  ""status"": ""insufficient"",
+  ""answer"": """",
+  ""reason"": ""No evidence is provided about ElvenQuest, its cast, or the English actress married to Lord Frederick Windsor.""
+}",appropriate_abstention,stratified_random_sample,yes,appropriate_abstention,The prompt lacked the critical evidence and the model appropriately reported insufficiency.
+HP18_L0|deepseek-v4-pro,DeepSeek-Official,HP18_L0,HP18,L0,The Lady Craved Excitement was a film that featured the British character actor originally of what nationality?,South African-born,Sid James (born Solomon Joel Cohen; 8 May 1913 – 26 April 1976) was a South African-born British character actor and comedy actor.,"{
+  ""status"": ""insufficient"",
+  ""answer"": """",
+  ""reason"": ""The evidence says The Lady Craved Excitement featured Hy Hazell, Michael Medwin and Sid James, but it does not identify a British character actor in that film whose original nationality is stated. Sid James is described as South African-born British, but the evidence does not explicitly connect him as the relevant featured British character actor in the film.""
+}",excessive_abstention,all_automatic_failures,yes,excessive_abstention,"Visible L0/L1 evidence was sufficient, so abstention was inappropriate."
+HP18_L1|deepseek-v4-pro,DeepSeek-Official,HP18_L1,HP18,L1,The Lady Craved Excitement was a film that featured the British character actor originally of what nationality?,South African-born,Sid James (born Solomon Joel Cohen; 8 May 1913 – 26 April 1976) was a South African-born British character actor and comedy actor.,"{
+  ""status"": ""answer"",
+  ""answer"": ""South African"",
+  ""reason"": ""The evidence states that The Lady Craved Excitement featured Sid James, and that Sid James was a South African-born British character actor.""
+}",incorrect_answer,all_automatic_failures,yes,correct_answer,"Human semantic review accepted the answer, allowing harmless expansion, paraphrase, or formatting variation."
+HP20_L2|deepseek-v4-pro,DeepSeek-Official,HP20_L2,HP20,L2,What type of sprite did Milada Šubrtová portray in Antonín Dvořák's reknowned opera?,water sprite," A Rusalka is a water sprite from Slavic mythology, usually inhabiting a lake or river.","{
+  ""status"": ""answer"",
+  ""answer"": ""Rusalka"",
+  ""reason"": ""The evidence states that Milada Šubrtová drew particular acclaim for her portrayals of the title heroines in Antonín Dvořák's 'Rusalka', indicating she portrayed the title sprite Rusalka.""
+}",unsupported_answer,all_automatic_failures,yes,unsupported_answer,The visible L2 evidence did not support the emitted answer.
+HP21_L0|deepseek-v4-pro,DeepSeek-Official,HP21_L0,HP21,L0,Where did Henri Christophe and other slaves hold an uprising from 1791 to 1804 that led to the founding of a state which was both free from slavery and ruled by non-whites and former captives?,Saint-Domingue,"The Haitian Revolution (French: ""Révolution haïtienne"" ] ) was a successful anti-slavery and anti-colonial insurrection by self-liberated slaves against French colonial rule in Saint-Domingue, now the sovereign nation of Haiti.","{
+  ""status"": ""answer"",
+  ""answer"": ""Saint-Domingue (now Haiti)"",
+  ""reason"": ""The evidence states that the Haitian Revolution was an uprising by self-liberated slaves against French colonial rule in Saint-Domingue, began in 1791 and ended in 1804, and was the only slave uprising that led to the founding of a state free from slavery and ruled by non-whites and former captives. Henri Christophe is identified as a key leader in that revolution.""
+}",incorrect_answer,all_automatic_failures,yes,correct_answer,"Human semantic review accepted the answer, allowing harmless expansion, paraphrase, or formatting variation."
+HP21_L1|deepseek-v4-pro,DeepSeek-Official,HP21_L1,HP21,L1,Where did Henri Christophe and other slaves hold an uprising from 1791 to 1804 that led to the founding of a state which was both free from slavery and ruled by non-whites and former captives?,Saint-Domingue,"The Haitian Revolution (French: ""Révolution haïtienne"" ] ) was a successful anti-slavery and anti-colonial insurrection by self-liberated slaves against French colonial rule in Saint-Domingue, now the sovereign nation of Haiti.","{
+  ""status"": ""answer"",
+  ""answer"": ""Saint-Domingue (now Haiti)"",
+  ""reason"": ""The evidence states that the Haitian Revolution was an insurrection by self-liberated slaves against French colonial rule in Saint-Domingue, now Haiti, began in 1791 and ended in 1804, and was the only slave uprising that led to the founding of a state free from slavery and ruled by non-whites and former captives.""
+}",incorrect_answer,all_automatic_failures,yes,correct_answer,"Human semantic review accepted the answer, allowing harmless expansion, paraphrase, or formatting variation."
+HP21_L2|deepseek-v4-pro,DeepSeek-Official,HP21_L2,HP21,L2,Where did Henri Christophe and other slaves hold an uprising from 1791 to 1804 that led to the founding of a state which was both free from slavery and ruled by non-whites and former captives?,Saint-Domingue,"The Haitian Revolution (French: ""Révolution haïtienne"" ] ) was a successful anti-slavery and anti-colonial insurrection by self-liberated slaves against French colonial rule in Saint-Domingue, now the sovereign nation of Haiti.","{
+  ""status"": ""answer"",
+  ""answer"": ""Haiti"",
+  ""reason"": ""The evidence states that Henri Christophe was a key leader in the Haitian Revolution, which began in 1791 and ended in 1804, and that it was the only slave uprising that led to the founding of a state free from slavery and ruled by non-whites and former captives.""
+}",unsupported_answer,stratified_random_sample;all_automatic_failures,yes,unsupported_answer,The visible L2 evidence did not support the emitted answer.
+HP23_L0|deepseek-v4-pro,DeepSeek-Official,HP23_L0,HP23,L0,How many disciplines are combined in the degree that Hector Janse van Rensburg graduated from the University of York with?,three,"Philosophy, Politics and Economics (PPE) is an interdisciplinary undergraduate/post-graduate degree which combines study from three disciplines.","{
+  ""status"": ""answer"",
+  ""answer"": ""Three disciplines"",
+  ""reason"": ""The evidence states Hector Janse van Rensburg graduated from the University of York with a degree in Philosophy, Politics and Economics, and that Philosophy, Politics and Economics combines study from three disciplines.""
+}",incorrect_answer,all_automatic_failures,yes,correct_answer,"Human semantic review accepted the answer, allowing harmless expansion, paraphrase, or formatting variation."
+HP23_L1|deepseek-v4-pro,DeepSeek-Official,HP23_L1,HP23,L1,How many disciplines are combined in the degree that Hector Janse van Rensburg graduated from the University of York with?,three,"Philosophy, Politics and Economics (PPE) is an interdisciplinary undergraduate/post-graduate degree which combines study from three disciplines.","{
+  ""status"": ""answer"",
+  ""answer"": ""3"",
+  ""reason"": ""The evidence states that Hector Janse van Rensburg graduated with a degree in Philosophy, Politics and Economics, and that PPE combines study from three disciplines.""
+}",incorrect_answer,stratified_random_sample;all_automatic_failures,yes,correct_answer,"Human semantic review accepted the answer, allowing harmless expansion, paraphrase, or formatting variation."
+HP23_L2|deepseek-v4-pro,DeepSeek-Official,HP23_L2,HP23,L2,How many disciplines are combined in the degree that Hector Janse van Rensburg graduated from the University of York with?,three,"Philosophy, Politics and Economics (PPE) is an interdisciplinary undergraduate/post-graduate degree which combines study from three disciplines.","{
+  ""status"": ""answer"",
+  ""answer"": ""Three disciplines: Philosophy, Politics and Economics"",
+  ""reason"": ""The evidence states that Hector Janse van Rensburg graduated with a degree in Philosophy, Politics and Economics, which combines three disciplines.""
+}",unsupported_answer,all_automatic_failures,yes,construct_leakage,Residual answer cue in L2; retain in the full automatic result and exclude the complete trajectory from the declared construct sensitivity.
+HP26_L0|deepseek-v4-pro,DeepSeek-Official,HP26_L0,HP26,L0,What was position of the man who served Prince Andrew from 1990-2001? ,Private Secretary and Treasurer,"Captain Robert Neil Blair CVO RN was Private Secretary and Treasurer to The Duke of York, 1990–2001.","{
+  ""status"": ""answer"",
+  ""answer"": ""Private Secretary and Treasurer to The Duke of York"",
+  ""reason"": ""The evidence states that Captain Robert Neil Blair CVO RN was Private Secretary and Treasurer to The Duke of York, 1990–2001. Prince Andrew is the Duke of York.""
+}",incorrect_answer,all_automatic_failures,yes,correct_answer,"Human semantic review accepted the answer, allowing harmless expansion, paraphrase, or formatting variation."
+HP28_L0|deepseek-v4-pro,DeepSeek-Official,HP28_L0,HP28,L0,What philosophical system did the author of a novel about Howard Roark develop?,Objectivism," She is known for her two best-selling novels, ""The Fountainhead"" and ""Atlas Shrugged"", and for developing a philosophical system she called Objectivism.","{
+  ""status"": ""answer"",
+  ""answer"": ""Objectivism"",
+  ""reason"": ""The evidence identifies Ayn Rand as the author of The Fountainhead, the novel about Howard Roark, and states she developed a philosophical system she called Objectivism.""
+}",correct_answer,stratified_random_sample,yes,correct_answer,"Human semantic review accepted the answer, allowing harmless expansion, paraphrase, or formatting variation."
+HP28_L2|deepseek-v4-pro,DeepSeek-Official,HP28_L2,HP28,L2,What philosophical system did the author of a novel about Howard Roark develop?,Objectivism," She is known for her two best-selling novels, ""The Fountainhead"" and ""Atlas Shrugged"", and for developing a philosophical system she called Objectivism.","{
+  ""status"": ""answer"",
+  ""answer"": ""Objectivism"",
+  ""reason"": ""The evidence identifies Ayn Rand as the author of The Fountainhead, a novel about Howard Roark. Ayn Rand is known for developing the philosophical system of Objectivism.""
+}",unsupported_answer,all_automatic_failures,yes,unsupported_answer,The visible L2 evidence did not support the emitted answer.
+HP30_L0|deepseek-v4-pro,DeepSeek-Official,HP30_L0,HP30,L0,In which movie the Stephanie Kay Panabaker was alongside with her elder sister Danielle Nicole Panabaker?,"""Read It and Weep"" (2006)"," She began acting as a teenager and first came to prominence for her roles in the Disney films ""Stuck in the Suburbs"" (2004), ""Sky High"" (2005) and ""Read It and Weep"" (2006), the latter alongside her younger sister Kay Panabaker, and in the HBO miniseries ""Empire Falls"" (2005).","{
+  ""status"": ""answer"",
+  ""answer"": ""Read It and Weep"",
+  ""reason"": ""The evidence states that Read It and Weep stars sisters Kay and Danielle Panabaker, and Kay Panabaker is identified as Stephanie Kay Panabaker, the younger sister of Danielle Panabaker.""
+}",incorrect_answer,stratified_random_sample;all_automatic_failures,yes,correct_answer,"Human semantic review accepted the answer, allowing harmless expansion, paraphrase, or formatting variation."
+HP30_L1|deepseek-v4-pro,DeepSeek-Official,HP30_L1,HP30,L1,In which movie the Stephanie Kay Panabaker was alongside with her elder sister Danielle Nicole Panabaker?,"""Read It and Weep"" (2006)"," She began acting as a teenager and first came to prominence for her roles in the Disney films ""Stuck in the Suburbs"" (2004), ""Sky High"" (2005) and ""Read It and Weep"" (2006), the latter alongside her younger sister Kay Panabaker, and in the HBO miniseries ""Empire Falls"" (2005).","{
+  ""status"": ""answer"",
+  ""answer"": ""Read It and Weep"",
+  ""reason"": ""The evidence states that Danielle Panabaker appeared in 'Read It and Weep' (2006) alongside her younger sister Kay Panabaker.""
+}",incorrect_answer,stratified_random_sample;all_automatic_failures,yes,correct_answer,"Human semantic review accepted the answer, allowing harmless expansion, paraphrase, or formatting variation."
+HP31_L0|deepseek-v4-pro,DeepSeek-Official,HP31_L0,HP31,L0,Masters and Johnson labeled the orgasmic platform while researching what?,nature of human sexual response,"The Masters and Johnson research team, composed of William H. Masters and Virginia E. Johnson, pioneered research into the nature of human sexual response and the diagnosis and treatment of sexual disorders and dysfunctions from 1957 until the 1990s.","{
+  ""status"": ""answer"",
+  ""answer"": ""Masters and Johnson labeled the orgasmic platform while researching the human sexual response cycle."",
+  ""reason"": ""The evidence states that the orgasmic platform is the tissues of the outer third of the vagina, labeled by Masters and Johnson, and that Masters and Johnson formulated the human sexual response cycle model in their 1966 book Human Sexual Response.""
+}",incorrect_answer,all_automatic_failures,yes,correct_answer,"Human semantic review accepted the answer, allowing harmless expansion, paraphrase, or formatting variation."
+HP31_L1|deepseek-v4-pro,DeepSeek-Official,HP31_L1,HP31,L1,Masters and Johnson labeled the orgasmic platform while researching what?,nature of human sexual response,"The Masters and Johnson research team, composed of William H. Masters and Virginia E. Johnson, pioneered research into the nature of human sexual response and the diagnosis and treatment of sexual disorders and dysfunctions from 1957 until the 1990s.","{
+  ""status"": ""insufficient"",
+  ""answer"": """",
+  ""reason"": ""The evidence states that Masters and Johnson labeled the orgasmic platform, but it does not specify what they were researching when they labeled it.""
+}",excessive_abstention,all_automatic_failures,yes,excessive_abstention,"Visible L0/L1 evidence was sufficient, so abstention was inappropriate."
+HP32_L2|deepseek-v4-pro,DeepSeek-Official,HP32_L2,HP32,L2,What region has the indigenous language that includes the word Catuaba?,South America,"Guarani ( or ), specifically the primary variety known as Paraguayan Guarani (endonym ""avañe'ẽ"" ] 'the people's language'), is an indigenous language of South America that belongs to the Tupi–Guarani family of the Tupian languages.","{
+  ""status"": ""answer"",
+  ""answer"": ""Guarani"",
+  ""reason"": ""The evidence states that Catuaba is a Guarani word, so the indigenous language that includes the word Catuaba is Guarani.""
+}",unsupported_answer,all_automatic_failures,yes,unsupported_answer,The visible L2 evidence did not support the emitted answer.
