@@ -14,6 +14,7 @@ Public repository: https://github.com/ww9oaty/QDegradeBench
 - `DATA_DICTIONARY.md`: field definitions.
 - `analysis/reproduce_metrics.py`: reproduces the main counts, ARR, UAR, IDU, CFO distribution, agreement, and Cohen's kappa.
 - `external_validation/`: two public English controls: the 24-chain E2E transfer study and the 32-chain HotpotQA evidence-deletion study.
+- `white_box_diagnostic/`: exact inputs, extracted prompt-end states, grouped-probe code, out-of-fold predictions, layer selections, permutation null, and trajectory statistics.
 
 ## Data exclusions
 
@@ -42,6 +43,8 @@ the deterministic constructor, source checksum, strict automatic scores,
 sensitivity that excludes two residual-cue trajectories. See its `README.md`
 and `HOTPOTQA_FORMAL_RUN_REPORT.md` for commands and interpretation limits.
 
+The exploratory white-box analysis is in `white_box_diagnostic/`. Readers can rerun the grouped probes and trajectory analysis from the supplied extracted states without downloading model weights. See that directory's `README.md`.
+
 ## Dataset structure
 
 Each base task has four matched prompts:
@@ -59,6 +62,7 @@ This artifact is released under CC BY 4.0. See `LICENSE.txt`.
 
 ## Archived versions
 
+Version `v1.0.4` adds the complete exploratory white-box diagnostic artifact.
 Version `v1.0.3` adds the HotpotQA public-data control and its completed
 40-response single-reviewer semantic audit. Tag `v1.0.2` contains the corrected
 E2E factual-control data plus its human-confirmed L2 structured audit. The

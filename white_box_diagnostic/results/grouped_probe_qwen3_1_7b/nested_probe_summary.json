@@ -1,0 +1,97 @@
+{
+  "analysis_status": "exploratory",
+  "selection": "For each outer fold, the layer was selected only with grouped inner cross-validation on the outer-training tasks.",
+  "point_estimates": {
+    "length_probability": {
+      "balanced_accuracy": 0.7109375,
+      "macro_f1": 0.710919855948239,
+      "auroc": 0.78466796875
+    },
+    "tfidf_probability": {
+      "balanced_accuracy": 0.6875,
+      "macro_f1": 0.6847290640394088,
+      "auroc": 0.7841796875
+    },
+    "hidden_final_probability": {
+      "balanced_accuracy": 0.7578125,
+      "macro_f1": 0.7576793893129772,
+      "auroc": 0.8203125
+    },
+    "hidden_nested_probability": {
+      "balanced_accuracy": 0.8671875,
+      "macro_f1": 0.8669845345069992,
+      "auroc": 0.90673828125
+    }
+  },
+  "nested_layer_selections": [
+    {
+      "outer_fold": 0,
+      "selected_layer": 17,
+      "inner_balanced_accuracy": 0.8392857142857142
+    },
+    {
+      "outer_fold": 1,
+      "selected_layer": 19,
+      "inner_balanced_accuracy": 0.8392857142857142
+    },
+    {
+      "outer_fold": 2,
+      "selected_layer": 18,
+      "inner_balanced_accuracy": 0.8482142857142858
+    },
+    {
+      "outer_fold": 3,
+      "selected_layer": 16,
+      "inner_balanced_accuracy": 0.8928571428571429
+    },
+    {
+      "outer_fold": 4,
+      "selected_layer": 18,
+      "inner_balanced_accuracy": 0.8303571428571429
+    },
+    {
+      "outer_fold": 5,
+      "selected_layer": 18,
+      "inner_balanced_accuracy": 0.8392857142857143
+    },
+    {
+      "outer_fold": 6,
+      "selected_layer": 18,
+      "inner_balanced_accuracy": 0.8571428571428572
+    },
+    {
+      "outer_fold": 7,
+      "selected_layer": 18,
+      "inner_balanced_accuracy": 0.8482142857142858
+    }
+  ],
+  "balanced_accuracy_95_intervals": {
+    "length_probability": [
+      0.640625,
+      0.78125
+    ],
+    "tfidf_probability": [
+      0.625,
+      0.75
+    ],
+    "hidden_final_probability": [
+      0.6875,
+      0.828125
+    ],
+    "hidden_nested_probability": [
+      0.8125,
+      0.921875
+    ]
+  },
+  "balanced_accuracy_difference_95_intervals": {
+    "nested_minus_length": [
+      0.0546875,
+      0.25
+    ],
+    "nested_minus_tfidf": [
+      0.09375,
+      0.2578125
+    ]
+  },
+  "interpretive_limit": "Decodability is an association and does not establish that the model uses this signal causally when generating an answer."
+}

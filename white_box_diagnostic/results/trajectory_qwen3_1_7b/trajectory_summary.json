@@ -1,0 +1,49 @@
+{
+  "permutation_test": {
+    "feature": "final-layer prompt-end hidden state",
+    "observed_grouped_balanced_accuracy": 0.7578125,
+    "within_chain_label_permutations": 200,
+    "null_mean": 0.499921875,
+    "null_95_interval": [
+      0.4375,
+      0.578125
+    ],
+    "empirical_p_value": 0.004975124378109453,
+    "note": "Labels were permuted within each four-prompt task chain; the model was refit in every permutation."
+  },
+  "trajectory_layer_18": {
+    "layer": 18,
+    "raw_L0_L1": 0.006092698808464182,
+    "raw_L1_L2": 0.013588542936633821,
+    "raw_L2_L3": 0.03898252158436115,
+    "raw_diff_L1_L2_minus_L0_L1": 0.00749584412816964,
+    "raw_diff_L1_L2_ci_low": 0.0014951495471143617,
+    "raw_diff_L1_L2_ci_high": 0.014321818003719974,
+    "controlled_L1_L2_coefficient": 0.003756167725230095,
+    "controlled_L1_L2_ci_low": -0.001317054246251198,
+    "controlled_L1_L2_ci_high": 0.009347341543098528,
+    "controlled_L2_L3_coefficient": 0.01327349614523756,
+    "controlled_L2_L3_ci_low": -0.0002786979181954018,
+    "controlled_L2_L3_ci_high": 0.02909830947333531
+  },
+  "trajectory_final_layer_28": {
+    "layer": 28,
+    "raw_L0_L1": 0.006705273379361356,
+    "raw_L1_L2": 0.018550152829393398,
+    "raw_L2_L3": 0.06014389686956368,
+    "raw_diff_L1_L2_minus_L0_L1": 0.011844879450032042,
+    "raw_diff_L1_L2_ci_low": 0.003465755838620682,
+    "raw_diff_L1_L2_ci_high": 0.02129847290820921,
+    "controlled_L1_L2_coefficient": 0.0062015258914712755,
+    "controlled_L1_L2_ci_low": -0.001119620728946677,
+    "controlled_L1_L2_ci_high": 0.014162757095683806,
+    "controlled_L2_L3_coefficient": 0.02029936509155001,
+    "controlled_L2_L3_ci_low": -0.00046538248309128786,
+    "controlled_L2_L3_ci_high": 0.04531653459892717
+  },
+  "surface_controls": [
+    "character edit distance",
+    "relative token-count change"
+  ],
+  "interpretive_limit": "Cosine trajectories are descriptive associations and do not establish causal processing or awareness."
+}

@@ -10,11 +10,11 @@ QDegradeBench: Matched Information-Degradation Chains and Human-Labeled LLM Resp
 
 ## Publication date
 
-2026-10-10
+2026-10-13
 
 ## Version
 
-1.0.3
+1.0.4
 
 ## Creators, in order
 
@@ -35,6 +35,8 @@ The package includes annotation guidance, experimental and collection metadata, 
 
 The package also includes a public-data control derived from 32 HotpotQA bridge questions and their official sentence-level supporting-fact coordinates. It provides 128 prompts and responses, strict automatic scores, a completed 40-response single-reviewer semantic audit, and a disclosed 30-chain sensitivity analysis excluding two residual-cue trajectories. This audit was not independent or blinded.
 
+The package additionally includes the complete exploratory white-box diagnostic for Qwen3-1.7B: exact inputs, extracted prompt-end hidden states, grouped and nested probe scripts, out-of-fold predictions, layerwise metrics, within-chain permutation results, and hidden-state trajectory statistics. These results show decodability and descriptive associations only; they do not establish a causal mechanism.
+
 ## Keywords
 
 large language models; information sufficiency; prompt degradation; clarification; abstention; hallucination; reliability evaluation; benchmark
@@ -53,4 +55,5 @@ https://github.com/ww9oaty/QDegradeBench — Is supplement to this upload
 
 ## DOI setting
 
-Select “No” for an existing DOI, then use “Get a DOI now” to reserve a Zenodo DOI before publication. Insert that DOI into the paper's Data Availability section. Upload `QDegradeBench_reproducibility_package.zip`. Do not publish until the author order, version 1.0.3, license, uploaded ZIP, and record preview have been checked.
+Select “No” for an existing DOI, then use “Get a DOI now” to reserve a Zenodo DOI before publication. Insert that DOI into the paper's Data Availability section. Upload `QDegradeBench_reproducibility_package.zip`. Do not publish until the author order, version 1.0.4, license, uploaded ZIP, and record preview have been checked.
+
